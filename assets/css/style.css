@@ -1,14 +1,17 @@
+
+.logo {
+  height: 50px;
+  margin: 10px;
+  padding: 20px;
+}
+
 h1 {
     font-family: sans-serif;
-    color: whitesmoke;
+    color: rgb(0,0,0);
     display: block;
     margin: 1em auto;
     text-align: center;
-    padding-top: 50;
-}
-
-.logo {
-    display: inline-block;
+    padding-top: 10 auto;
 }
 
 .showcase {
@@ -19,10 +22,6 @@ h1 {
     gap: 20px;
 }
 
-form {
-    padding-top: 20px;
-}
-
 footer {
     margin-left: auto;
     margin-right: auto;
@@ -30,63 +29,3 @@ footer {
     font-size: .15 em;
     font-style: italic;
 }
-
-.navbar {
-    background-color: cornflowerblue;
-  }
-  
-.menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    text-align: center;
-  }
-  
-  .menu-item {
-    position: relative;
-    padding: 16px;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .menu-item:hover {
-    background-color: #444;
-  }
-  
-  .dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #555;
-    min-width: 160px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .dropdown li {
-    padding: 10px;
-    color: white;
-  }
-  
-  .dropdown li:hover {
-    background-color: #666;
-  }
-  
-  .menu-item:hover .dropdown {
-    display: block;
-  }
-
-  .column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    max-width: 800px; /* Adjust to your desired width */
-  }
-
-  #ITC {
-    height: 100px;
-    background-image: url(/GuruDev.jpg);
-  }
