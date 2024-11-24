@@ -1,28 +1,28 @@
-
-.logo {
-  height: 50px;
-  margin: 10px;
-  padding: 20px;
+.menu-bar {
+    margin-top: 20px;
 }
 
-h1 {
+.menu-bar img {
+    height: 3rem;
+    margin: 0;
+}
+
+.header {
     font-family: sans-serif;
-    color: rgb(0,0,0);
-    display: block;
-    margin: 1em auto;
     text-align: center;
-    padding-top: 10 auto;
+    text-transform: uppercase;
+    padding: 0px;
+    color: rgb(0,0,0);
 }
 
-.showcase {
-    margin-left: auto;
-    margin-right: auto;
+.subscribe-container {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
-footer {
+#footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
