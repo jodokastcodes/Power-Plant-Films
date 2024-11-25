@@ -29,3 +29,8 @@
     font-size: .15 em;
     font-style: italic;
 }
+
+.confirmed {
+    font-family: sans-serif;
+    text-align: center;
+}
