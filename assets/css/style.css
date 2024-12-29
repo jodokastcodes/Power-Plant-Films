@@ -48,7 +48,7 @@
   .welcome {
     font-size: 14px;
     padding: 10px;
-  }
+  }}
 
 #footer {
   margin-left: auto;
@@ -61,4 +61,13 @@
 .confirmed {
   font-family: sans-serif;
   text-align: center;
+}
+
+.frame {
+  max-width: 395px;
+  margin-top: 20px;
+}
+
+p {
+  padding-bottom: 10px;
 }
